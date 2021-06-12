@@ -94,8 +94,12 @@ class N2L
         if (!isset(self::LANGUAGE_TYPES[$languageType]) || !isset(self::LENGTH_TYPES[$lengthType])) {
             return '';
         }
-        $listName = self::LANGUAGE_TYPES[$languageType] + '_' + self::LENGTH_TYPES[$lengthType];
-        $list = self::$listName;
+        $list = constant(
+            'self::' .
+            self::LANGUAGE_TYPES[$languageType] .
+            '_' .
+            self::LENGTH_TYPES[$lengthType]
+        );
         return $list[$day] ?? '';
     }
 }

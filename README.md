@@ -12,7 +12,7 @@ Packagist には登録してないので、 `N2L.php` をDLなりコピペして
 "repositories": {
     "day-number2label": {
         "type": "vcs",
-        "url": "git@github.com:shimoning/day-number2label.git"
+        "url": "https://github.com/shimoning/day-number2label.git"
     }
 },
 
