@@ -1,0 +1,29 @@
+{
+    "name": "shimoning/day-number2label",
+    "description": "Converter Number of day to Label",
+    "minimum-stability": "stable",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shimon Haga",
+            "email": "shimon.haga@shimoning.com",
+            "homepage": "https://shimoning.com"
+        }
+    ],
+    "keywords": [
+        "day",
+        "japanese",
+        "romaji",
+        "hiragana",
+        "kana",
+        "kanji"
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shimoning\\DayNumber2Label\\": "src/"
+        }
+    }
+}
