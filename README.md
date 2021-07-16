@@ -17,7 +17,7 @@ Packagist には登録してないので、 `N2L.php` をDLなりコピペして
 },
 
 "require": {
-    "shimoning/day-number2label": ">=0.0.1"
+    "shimoning/day-number2label": "^0.0.2"
 },
 ```
 
