@@ -73,7 +73,7 @@ class N2L
 
     const LENGTH_TYPE_LONG = 0;
     const LENGTH_TYPE_MIDDLE = 1;
-    const LENGTH_TYPE_SHORT = 1;
+    const LENGTH_TYPE_SHORT = 2;
     const LENGTH_TYPES = [
         self::LENGTH_TYPE_LONG => 'LONG',
         self::LENGTH_TYPE_MIDDLE => 'MIDDLE',
